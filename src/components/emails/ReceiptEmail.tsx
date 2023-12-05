@@ -133,7 +133,7 @@ export const ReceiptEmail = ({
                   ) : null}
                   <Link
                     href={`${process.env.NEXT_PUBLIC_SERVER_URL}/thank-you?orderId=${orderId}`}
-                    style={productLink}>
+                    style={productLink} download={product.name}>
                     Download Asset
                   </Link>
                 </Column>
