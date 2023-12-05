@@ -9,7 +9,7 @@ Premiumark is a modern full-stack e-commerce marketplace for digital products. I
 
 ## Demo
 
-[Premiumark](https://premiumark-production.up.railway.app/)
+coming soon...
 
 ## Features
 
