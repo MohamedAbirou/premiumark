@@ -4,11 +4,11 @@
 
 Premiumark is a modern full-stack e-commerce marketplace for digital products. It's built using Next.js 14 app router, tRPC, Payload CMS, TypeScript, Tailwind CSS, and Express.js.
 
-![Premiumark-the-marketplace-for-digital-assets](https://github.com/MohamedAbirou/premiumark/assets/109366637/cc3415ab-0307-49bb-a37d-faece303feb0)
+![Premiumark-the-marketplace-for-digital-assets](https://github.com/MohamedAbirou/premiumark/assets/109366637/337bfbb6-d46a-4d72-a0f1-25080abc053b)
 
 ## Demo
 
-- [Premiumark](https://premiumark-production.up.railway.app/)
+[Premiumark](https://premiumark-production.up.railway.app/)
 
 ## Features
 
