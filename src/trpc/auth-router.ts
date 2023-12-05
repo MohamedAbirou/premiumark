@@ -45,7 +45,7 @@ export const authRouter = router({
 
       const isVerified = await payload.verifyEmail({
         collection: 'users',
-        token,
+        token: null,
       })
 
       if (!isVerified)
