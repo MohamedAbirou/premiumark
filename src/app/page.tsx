@@ -55,9 +55,6 @@ export default function Home() {
               className={buttonVariants()}>
               Browse Trending
             </Link>
-            <Button variant='ghost'>
-              Our quality promise &rarr;
-            </Button>
           </div>
         </div>
 
