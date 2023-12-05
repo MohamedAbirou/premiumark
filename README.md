@@ -6,6 +6,9 @@ Premiumark is a modern full-stack e-commerce marketplace for digital products. I
 
 ![Premiumark-the-marketplace-for-digital-assets](https://github.com/MohamedAbirou/premiumark/assets/109366637/cc3415ab-0307-49bb-a37d-faece303feb0)
 
+## Demo
+
+- (Premiumark)[https://premiumark-production.up.railway.app/]
 
 ## Features
 
