@@ -1,5 +1,5 @@
 import { formatPrice } from '../../lib/utils'
-import { Product } from '../../payload-types'
+import { Product, ProductFile } from '../../payload-types'
 
 import {
   Body,
@@ -101,6 +101,9 @@ export const ReceiptEmail = ({
             <Text style={productsTitle}>Order Summary</Text>
           </Section>
           {products.map((product) => {
+            const downloadUrl = (
+              product.product_files as ProductFile
+            ).url as string
             const { image } = product.images[0]
 
             return (
@@ -132,7 +135,7 @@ export const ReceiptEmail = ({
                     </Text>
                   ) : null}
                   <Link
-                    href={`${process.env.NEXT_PUBLIC_SERVER_URL}/thank-you?orderId=${orderId}`}
+                    href={downloadUrl}
                     style={productLink} download={product.name}>
                     Download Asset
                   </Link>
