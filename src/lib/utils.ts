@@ -29,7 +29,7 @@ export function formatPrice(
 export function constructMetadata({
   title = 'Premiumark - the marketplace for digital assets',
   description = 'Premiumark is an open-source marketplace for high-quality digital goods.',
-  image = '/thumbnail.png',
+  image = '/thumbnail.jpg',
   icons = '/favicon.ico',
   noIndex = false,
 }: {
@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@MohamedAbirou',
     },
     icons,
-    metadataBase: new URL('http://localhost:3000/'),
+    metadataBase: new URL('https://premiumark-production.up.railway.app/'),
     ...(noIndex && {
       robots: {
         index: false,
