@@ -8,7 +8,7 @@ const nextConfig = {
 			},
 			{
 				protocol: "https",
-				hostname: "premiumark-production.up.railway.app",
+				hostname: "premiumark.onrender.com",
 			},
 		],
 	},
